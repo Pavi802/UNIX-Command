@@ -1,0 +1,10 @@
+read n
+awk '
+    BEGIN {
+        sum=0;
+        }
+     { if ( $0%2==0 ){
+         sum+=$0;
+     }
+     }
+     END { print "Total","=",sum}'
