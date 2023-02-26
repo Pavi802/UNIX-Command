@@ -1,0 +1,24 @@
+Write the unix command to count the number of words in the first 3 lines of a file.
+
+The file will be given as a command line argument when the script containing your command will run.
+
+For example,
+
+If the input file contains the following lines
+
+Unix is a command based operating system.
+
+We will learn unix in this module.
+
+This is a test file.
+
+We are using this file to practice some commands.
+
+We have reached the end of the file.
+
+The output will be,
+
+19
+
+Solution:
+  head -3|wc -w
